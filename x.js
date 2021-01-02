@@ -10,7 +10,10 @@ loginButton.addEventListener("click", (e) => {
         alert("You have successfully logged");
         window.location.href = "k.html";
         
-    } else {
+    } if (username === "Legend" && password === "0987123") {
+        alert("You have successfully logged");
+        window.location.href = "k.html";
+    }  else {
         alert("we have some error");
     }
 })

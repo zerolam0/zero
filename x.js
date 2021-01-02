@@ -9,8 +9,8 @@ loginButton.addEventListener("click", (e) => {
     if (username === "Legend" && password === "0987123") {
         alert("You have successfully logged");
         window.location.href = "k.html";
-        
-    } if (username === "Legend" && password === "0987123") {
+
+    } if (username === "lam" && password === "zero") {
         alert("You have successfully logged");
         window.location.href = "k.html";
     }  else {
